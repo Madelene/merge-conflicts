@@ -4,5 +4,6 @@ cxx_flags = Split('''-std=c++1y
                      -g 
                      -fcolor-diagnostics''')
 build_env = Environment(CXXFLAGS = cxx_flags)
-main_program = 'ScratchProgram.cc'
-build_env.Program(source = main_program)
+src = Split('''ScratchProgram.cc
+               IO.cc''')
+build_env.Program(source = src, target = 'message')
