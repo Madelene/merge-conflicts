@@ -10,6 +10,16 @@ namespace IO {
 using namespace std;
 
 
+
+
+void PrintWelcome()
+{
+    cout << "welcome to ScratchProgram\n";
+}
+
+
+
+
 } // namespace IO
 
 

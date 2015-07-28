@@ -1,6 +1,6 @@
 #include <exception>
 #include <iostream>
-#include "IO.hh"
+#include "IO.cc"
 
 
 using namespace std;
@@ -10,8 +10,8 @@ int main(int argc, char* argv[])
 {
     try {
 
-        cout << "welcome to Scratch Program\n";
-        
+        IO::PrintWelcome();
+                
     }
 
     catch (exception& e) {
