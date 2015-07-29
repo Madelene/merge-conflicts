@@ -15,11 +15,13 @@ using namespace std;
 static const string defUsername {"anonymous user"};
 
 
-void PrintWelcome(string user = "")
+void PrintWelcome(string user = "", bool longerGreeting = true)
 {
     cout << "welcome to ScratchProgram, "
          << (user.empty()? defUsername : user)
          << '\n';
+    if (longerGreeting)
+        cout << "may the force be with you\n";
 }
 
 
