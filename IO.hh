@@ -15,7 +15,7 @@ using namespace std;
 static const string defUsername {"anonymous user"};
 
 
-void PrintWelcome(string user = "")
+void PrintWelcomeMessage(string user = "")
 {
     cout << "welcome to ScratchProgram, "
          << (user.empty()? defUsername : user)
