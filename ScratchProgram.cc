@@ -1,5 +1,9 @@
 #include <exception>
+
+
 #include <iostream>
+
+
 #include "IO.cc"
 
 
@@ -8,6 +12,9 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
+
+
+
     try {
 
         IO::PrintWelcome();
@@ -22,6 +29,10 @@ int main(int argc, char* argv[])
         cerr << "caught unknown exception\n";
         return 1;
     }
+
+
+
+
 
     return 0;
 }
