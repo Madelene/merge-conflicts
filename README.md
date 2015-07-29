@@ -1,4 +1,4 @@
-Demo repo for [today's class](http://training.github.com/classes/free/#July-29-2015) on fixing merge conflicts. Feel free to fork!
+Demo repo for [today's class](http://training.github.com/classes/free/#July-29-2015) on fixing merge conflicts. Feel free to fork; this repo will be deleted in about a week.
 
 ### Notes
 - [Git documentation](http://git-scm.com/docs)
